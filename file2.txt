@@ -1,4 +1,5 @@
 Hi, This is file2
 pipeline {
     agent docker-slave
+    agent k8s-slave
 }
